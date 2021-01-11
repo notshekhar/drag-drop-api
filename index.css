@@ -1,0 +1,21 @@
+.dragHover {
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: all 200ms;
+}
+.drop_photo {
+    margin: 10px 50px 10px 50px;
+    border: dotted 2px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 4px;
+    font-family: var(--font);
+}
+input[type="file"] {
+    display: none;
+}
+
+.choose {
+    outline: none;
+    cursor: pointer;
+    color: rgb(29, 176, 212);
+    font-weight: 800;
+}
